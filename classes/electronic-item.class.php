@@ -17,19 +17,19 @@ abstract class ElectronicItem {
     /**
     * @var string
     */
-    protected $type;
+    private $type;
 
     /**
     * @var array List of extras applied to item
     */
-    protected $extras = [];
+    private $extras = [];
 
     /**
     * @var bool
     */
-    protected $wired = 1;
+    private $wired = 1;
 
-    protected $is_extra = false;
+    private $is_extra = false;
 
     const ELECTRONIC_ITEM_TELEVISION = 'television';
     const ELECTRONIC_ITEM_CONSOLE = 'console';
